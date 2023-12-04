@@ -1,0 +1,28 @@
+// npm i -g typescript
+// tsc -init
+// npm init -y
+// npm i --save-dev @web/dev-server
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "allowJs": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "DOM",
+      "ES2021"
+    ],
+    "module": "ES2022",
+    "moduleResolution": "Node",
+    "target": "ES2021",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "skipDefaultLibCheck": true,
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
